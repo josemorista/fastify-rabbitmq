@@ -1,0 +1,22 @@
+{
+  "name": "fastify-rabbitmq",
+  "packageManager": "yarn@3.0.0",
+  "scripts": {
+    "dev:server": "ts-node-dev --inspect --ignore-watch .yarn ./src/index.ts"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "fastify": "^3.20.2",
+    "fastify-swagger": "^4.8.4",
+    "nanoid": "^3.1.25"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.8.1",
+    "@types/node": "^16.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
